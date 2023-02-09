@@ -1,0 +1,8 @@
+C:\Users\Lenovo\source\repos\PROG8170_assignment_2\PROG8170_assignment_2\obj\Debug\PROG8170_assignment_2.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\PROG8170_assignment_2\PROG8170_assignment_2\obj\Debug\PROG8170_assignment_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\source\repos\PROG8170_assignment_2\PROG8170_assignment_2\obj\Debug\PROG8170_assignment_2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\PROG8170_assignment_2\PROG8170_assignment_2\bin\Debug\PROG8170_assignment_2.exe.config
+C:\Users\Lenovo\source\repos\PROG8170_assignment_2\PROG8170_assignment_2\bin\Debug\PROG8170_assignment_2.exe
+C:\Users\Lenovo\source\repos\PROG8170_assignment_2\PROG8170_assignment_2\bin\Debug\PROG8170_assignment_2.pdb
+C:\Users\Lenovo\source\repos\PROG8170_assignment_2\PROG8170_assignment_2\obj\Debug\PROG8170_assignment_2.exe
+C:\Users\Lenovo\source\repos\PROG8170_assignment_2\PROG8170_assignment_2\obj\Debug\PROG8170_assignment_2.pdb
