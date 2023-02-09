@@ -24,7 +24,7 @@ namespace PROG8170_assignment_2_test
         public void TestGetRadiusWithSomeValue()
         {
             Circle crlObj = new Circle();
-            crlObj.SetRadius(5);
+            crlObj.SetRadius(3);
             int actualValue = crlObj.GetRadius();
             Assert.AreEqual(3, actualValue);
         }
@@ -68,28 +68,29 @@ namespace PROG8170_assignment_2_test
             Assert.AreEqual(1, actualValue);
         }
 
+        //Test Case 1 for Get circumference
         [Test]
         public void TestGetCircumferenceWithDefaultValue()
         {
-            //Arrange
             Circle crlObj = new Circle();
             crlObj.GetRadius();
-            //Act
+            
             double actualValue = crlObj.GetCircumference();
-            //Assert
-            Assert.AreEqual(5.53, actualValue);
+            Assert.AreEqual(6.28, actualValue);
         }
 
+        //Test Case 2 for get circumference with some value
         [Test]
         public void TestGetCircumferenceWithSomeRadiusValue()
         {
             Circle crlObj = new Circle();
 
-            crlObj.SetRadius(5);
+            crlObj.SetRadius(3);
             double actualValue = crlObj.GetCircumference();
-            Assert.AreEqual(31.400000000000002d, actualValue);
+            Assert.AreEqual(18.84, actualValue);
         }
 
+        //Test Case 3 for get circumference with negative value
         [Test]
         public void TestGetCircumferenceWithNegativeRadius()
         {
@@ -100,7 +101,7 @@ namespace PROG8170_assignment_2_test
             Assert.AreEqual(6.28, actualValue);
         }
 
-        //Test Cases for Get Area method
+        //Test Case 1 for Get area with default value
         [Test]
         public void TestGetAreaWithDefaultRadius()
         {
@@ -109,27 +110,26 @@ namespace PROG8170_assignment_2_test
             Assert.AreEqual(3.14, actualValue);
         }
 
+        //Test Case 2 for Get area with some radius value
         [Test]
-        public void TestGetAreaWithRadius5()
+        public void TestGetAreaWithSomeRadiusValue()
         {
             Circle crlObj = new Circle();
-            crlObj.SetRadius(5);
+            crlObj.SetRadius(3);
             double actualValue = crlObj.GetArea();
-            Assert.AreEqual(78.5, actualValue);
+
+            Console.WriteLine(actualValue);
+            Assert.AreEqual(28.26, actualValue);
         }
 
+        //Test Case 3 for Get area with zero radius value
         [Test]
-        public void TestGetAreaWithRadius0()
+        public void TestGetAreaWithZeroRadius()
         {
             Circle crlObj = new Circle();
             crlObj.SetRadius(0);
             double actualValue = crlObj.GetArea();
             Assert.AreEqual(3.14, actualValue);
-        }
-
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Here");
         }
     }
 }
