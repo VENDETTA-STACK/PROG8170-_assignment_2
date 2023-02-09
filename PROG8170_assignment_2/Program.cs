@@ -12,26 +12,9 @@ namespace PROG8170_assignment_2
         {
             try
             {
-                bool isValid = false;
-                /*int radius;*/
+                
                 Circle circleObj = new Circle();
 
-                /*while (!isValid)
-                {
-                    Console.Write("Please enter the circle radius: ");
-
-                    radius = Convert.ToInt32(Console.ReadLine());
-
-                    if (radius < 0 || radius == 0)
-                    {
-                        Console.Write("Please enter valid radius");
-                    }
-                    else
-                    {
-                        isValid = true;
-                        circleObj.SetRadius(radius);
-                    }
-                }*/
 
                 Console.WriteLine("\t ========================= \t \n");
 
