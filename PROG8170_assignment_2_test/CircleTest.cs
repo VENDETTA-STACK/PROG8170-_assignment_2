@@ -8,7 +8,7 @@ using PROG8170_assignment_2;
 
 namespace PROG8170_assignment_2_test
 {
-    public class ClassTest
+    public class CircleTest
     {
         //Test Case 1 for circle Get Radius method
         [Test]
